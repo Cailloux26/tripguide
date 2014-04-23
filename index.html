@@ -1,0 +1,246 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+  <title>Traveler - San Francisco </title>
+<link rel="stylesheet" href="./css/common.css">
+<script src="./js/jquery-2.1.0.min.js"></script>
+<script src="./js/common.js" async defer></script>
+<!--[if IE]> 
+<script> 
+ document.createElement("header"); 
+ document.createElement("footer"); 
+ document.createElement("nav"); 
+ document.createElement("article"); 
+ document.createElement("section"); 
+</script> 
+<![endif]-->
+<!--[if lt IE 9]> 
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script type="text/javascript">
+$(function() {
+    $("ul#citypulldown").hover(function() {
+        $(this).children('li').show();
+    }, function() {
+        $(this).children('li').hide();
+    });
+});
+
+</script>
+</head>
+<body>
+<main id="wrapper">
+    <header id="header" role="banner">
+        <div id="header_body">
+            <div id="logo">
+                <a href="./"><img src="./images/tabi.png" alt="logo"></a>
+            </div>
+            <h1 id="sitetitle">Travel guide</h1>
+        </div>
+    </header>
+    <nav id="sticky_nav" role="navigation">
+            <ul id="dropmenu">
+              <li><a href="#">Cities</a>
+                <ul>
+                  <li><a href="#">San Francisco</a></li>
+                  <li><a href="#">New York</a></li>
+                  <li><a href="#">Los Angels</a></li>
+                  <li><a href="#">Las Vegas</a></li>
+                </ul>
+              </li>
+            </ul>
+    </nav>
+    <section class="cities-wrapper" role="main">
+        <div id="city">
+            <div class="hero">
+                <!--<div class="map svg">-->
+                    <!--[if lte IE 8]>
+                    <object classid="image/svg+xml" id="map" src="./images/dark.svg" type="image/svg+xml"></object>
+                    <![endif]-->
+                    <!--[if gt IE 8]>
+                    <object data="./images/dark.svg" id="map" type="image/svg+xml"></object>
+                    <![endif]-->
+                    <!--[if !IE]>-->
+                    <!--<object data="./images/dark.svg" id="map" type="image/svg+xml"></object>-->
+                    <!--<![endif]-->
+                <!--</div>-->
+                <div class="title overlay">
+                <div class="container">
+                    <h1 class="shiftbold">San Francisco</h1>
+                    <h2 class="shiftbold">a major city in California, the centerpiece of the Bay Area, well-known for its liberal community, hilly terrain, Victorian architecture, scenic beauty, summer fog, and great ethnic and cultural diversity</h2>
+                </div>
+                <section id="map-canvas-weather"></section>
+            </div>
+          </div>
+        </div>
+
+        <nav id="citymenucontainer" role="complementary">
+            <ul id="citymenu">
+                <li><a href="#">Area</a></li>
+                <li><a href="#">Food</a></li>
+                <li><a href="#">Place</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Communities</a></li>
+            </ul>
+        </nav>
+        <div id="page">
+            <div id="pageBody">
+                <div id="container">
+                    <figure class="grid">
+                    <div class="imgholder">
+                        <img src="./images/colevalley.jpg" alt="">
+                    </div>
+                    <h2>
+                        <span class="placename">ColeValley</span>
+                    </h2>
+                    <figcaption class="comment">a major city in California, the <mark>enterpiece</mark> of the Bay Area, well-known for its liberal community, hilly terrain, Victorian architecture, scenic beauty, summer fog, and great ethnic and cultural diversity</figcaption>
+                    </figure>
+                    <figure class="grid">
+                    <div class="imgholder">
+                        <img src="./images/bayview.jpg" alt="">
+                    </div>
+                    <h2>
+                        <span class="placename">Bayview</span>
+                    </h2>
+                    <figcaption class="comment">a major city in California, the <mark>enterpiece</mark> of the Bay Area, well-known for its liberal community, hilly terrain, Victorian architecture, </figcaption>
+                    </figure>
+                    <figure class="grid">
+                    <div class="imgholder">
+                        <img src="./images/bernalheights.jpg" alt="">
+                    </div>
+                    <h2>
+                        <span class="placename">Bernal Heights</span>
+                    </h2>
+                    <figcaption class="comment">a major city in California, the <mark>enterpiece</mark> of the Bay Area, well-known </figcaption>
+                    </figure>
+                    <figure class="grid">
+                    <div class="imgholder">
+                        <img src="./images/dogpatch.jpg" alt="">
+                    </div>
+                    <h2>
+                        <span class="placename">Dogpatch</span>
+                    </h2>
+                    <figcaption class="comment">a major city in California, the <mark>enterpiece</mark> of the Bay Area, well-known for its liberal community, hilly terrain, Victorian architecture, scenic beauty, summer fog, and </figcaption>
+                    </figure>
+                    <figure class="grid">
+                    <div class="imgholder">
+                        <img src="./images/excelsior.jpg" alt="">
+                    </div>
+                    <h2>
+                        <span class="placename">Excelsior</span>
+                    </h2>
+                    <figcaption class="comment">a major city in California, the <mark>enterpiece</mark> of the Bay Area, well-known for its liberal community, hilly terrain, Victorian architecture</figcaption>
+                    </figure>
+                    <figure class="grid">
+                    <div class="imgholder">
+                        <img src="./images/glenpark.jpg" alt="">
+                    </div>
+                    <h2>
+                        <span class="placename">Glen Park</span>
+                    </h2>
+                    <figcaption class="comment">a major city in California, the <mark>enterpiece</mark> of the Bay Area, well-known for its</figcaption>
+                    </figure>
+                    <figure class="grid">
+                    <div class="imgholder">
+                        <img src="./images/innersunset.jpg" alt="">
+                    </div>
+                    <h2>
+                        <span class="placename">Inner Sunset</span>
+                    </h2>
+                    <figcaption class="comment">a major city in California, the <mark>enterpiece</mark> of the Bay Area, well-known </figcaption>
+                    </figure>
+                    <figure class="grid">
+                    <div class="imgholder">
+                        <img src="./images/missionterrace.jpg" alt="">
+                    </div>
+                    <h2>
+                        <span class="placename">Mission Terrace</span>
+                    </h2>
+                    <figcaption class="comment">a major city in California, the <mark>enterpiece</mark> of the Bay Area, well-known for its liberal community, hilly terrain, Victorian architecture, scenic beauty, summer fog, and great ethnic and cultural diversity</figcaption>
+                    </figure>
+                    <figure class="grid">
+                    <div class="imgholder">
+                        <img src="./images/noevalley.jpg" alt="">
+                    </div>
+                    <h2>
+                        <span class="placename">Noe Valley</span>
+                    </h2>
+                    <figcaption class="comment">a major city in California, the <mark>enterpiece</mark> of the Bay Area, well-known for its liberal community, hilly terrain, Victorian architecture, scenic beauty, summer fog</figcaption>
+                    </figure>
+                    <figure class="grid">
+                    <div class="imgholder">
+                        <img src="./images/outersunset.jpg" alt="">
+                    </div>
+                    <h2>
+                        <span class="placename">Outer Sunset</span>
+                    </h2>
+                    <figcaption class="comment">a major city in California, the <mark>enterpiece</mark> of the Bay Area, well-known for its liberal community, hilly terrain, Victorian architecture,</figcaption>
+                    </figure>
+                    <figure class="grid">
+                    <div class="imgholder">
+                        <img src="./images/pacificheights.jpg" alt="">
+                    </div>
+                    <h2>
+                        <span class="placename">Pacific Heights</span>
+                    </h2>
+                    <figcaption class="comment">a major city in California, the <mark>enterpiece</mark> of the Bay Area, well-known for its liberal community, hilly terrain, Victorian architecture, </figcaption>
+                    </figure>
+                    <figure class="grid">
+                    <div class="imgholder">
+                        <img src="./images/portola.jpg" alt="">
+                    </div>
+                    <h2>
+                        <span class="placename">Portola</span>
+                    </h2>
+                    <figcaption class="comment">a major city in California, the <mark>enterpiece</mark> of the Bay Area, well-known</figcaption>
+                    </figure>
+                    <figure class="grid">
+                    <div class="imgholder">
+                        <img src="./images/potrerohill.jpg" alt="">
+                    </div>
+                    <h2>
+                        <span class="placename">Potrero Hill</span>
+                    </h2>
+                    <figcaption class="comment">a major city in California, the <mark>enterpiece</mark> of the Bay Area, well-known for its liberal community, hilly terrain, Victorian architecture, scenic beauty, summer fog, and great ethnic and cultural diversity</figcaption>
+                    </figure>
+                    <figure class="grid">
+                    <div class="imgholder">
+                        <img src="./images/presidioheights.jpg" alt="">
+                    </div>
+                    <h2>
+                        <span class="placename">Presidio Heights</span>
+                    </h2>
+                    <figcaption class="comment">a major city in California, </figcaption>
+                    </figure>
+                    <figure class="grid">
+                    <div class="imgholder">
+                        <img src="./images/richmond.jpg" alt="">
+                    </div>
+                    <h2>
+                        <span class="placename">Richmond</span>
+                    </h2>
+                    <figcaption class="comment">a major city in California, the <mark>enterpiece</mark> of the Bay Area, well-known for its liberal </figcaption>
+                    </figure>
+                    <figure class="grid">
+                    <div class="imgholder">
+                        <img src="./images/russianhill.jpg" alt="">
+                    </div>
+                    <h2>
+                        <span class="placename">Russian Hill</span>
+                    </h2>
+                    <figcaption class="comment">a major city in California, the <mark>enterpiece</mark> of the Bay Area, well-known for its liberal community, hilly terrain, Victorian architecture, scenic beauty, summer fog, and great ethnic and cultural diversity</figcaption>
+                    </figure>
+                </div>
+            </div>
+        <!-- page -->
+        </div>
+    </section>
+<footer role="contentinfo" id="footer">
+    <address>
+        <small>Copyright 2014, TravelGuid. All rights reserved.</small>
+    </address>
+</footer>
+</div>
+</body>
+</html>
